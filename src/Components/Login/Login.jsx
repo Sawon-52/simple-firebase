@@ -54,11 +54,11 @@ const Login = () => {
           </button>
         ) : (
           <div className=" flex gap-5">
-            <button onClick={handleGoogleAuthProvider} className="p-3 border-2 border-black hover:bg-blue-500  rounded-lg text-black hover:text-white text-xl">
+            <button onClick={handleGoogleAuthProvider} className="p-3 border-2 border-black hover:bg-green-800  rounded-lg text-black hover:text-white text-xl">
               Google Login
             </button>
 
-            <button onClick={handleGitHubAuthProvider} className="p-3 border-2 border-black hover:bg-blue-500  rounded-lg text-black hover:text-white text-xl">
+            <button onClick={handleGitHubAuthProvider} className="p-3 border-2 border-black hover:bg-gray-800  rounded-lg text-black hover:text-white text-xl">
               GitHub Login
             </button>
           </div>
